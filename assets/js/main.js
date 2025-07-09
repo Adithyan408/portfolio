@@ -93,8 +93,8 @@ const form = document.getElementById('form');
     if (errors.length > 0) {
       alert(errors.join("\n"));
     } else {
-      form.reset();
       form.submit(); // If valid, submit the form
+      form.reset();
     }
   });
   /**
